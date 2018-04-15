@@ -1,0 +1,89 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: #343434;
+  color: #e6e6e6;
+}
+
+#title{
+  width: 100%;
+  margin: 10px 0;
+  text-align: center;
+  font-size: 4em;
+  font-family: Verdana;
+}
+
+#main{
+  position: relative;
+  width: 500px;
+  height: 350px;
+  padding-top: 10px;
+  box-shadow: 1px 1px 5px #202020;
+  margin: 10% auto;
+}
+
+#main #avatar{
+  margin: 20px auto;
+  display: block;
+  width: 100px;
+  border: 1px solid #e6e6e6;
+  border-radius: 50%;
+}
+
+#main #content{
+  padding-left: 10px;
+}
+
+#main #fullName{
+  margin: 10px 0;
+  width: 100%;
+  font-size: 3em;
+  line-height: 30px;
+  text-transform: capitalize; /* Capitalize first letter in name */
+}
+
+#main #username{
+  text-transform: lowercase;
+  font-size: 2em;
+}
+
+#main #email{
+  font-size: 1.5em;
+}
+
+#main #city{
+  text-transform: capitalize;
+}
+
+#main button{
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 35px;
+  font-size: 1.15em;
+  background-color: #e07307;
+  border: none;
+  color: #e6e6e6;
+}
+
+#explanation{
+  width: 85%;
+  margin: 0 auto;
+  border-top: 1px solid #e07307;
+  padding: 10px;
+  text-align: center;
+}
+
+#source-code-title{
+  text-align: left;
+  margin: 50px 0 20px 0
+}
+
+#source-code{
+  width: 100%;
+  background-color: #fff;
+}

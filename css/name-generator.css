@@ -19,7 +19,7 @@ body{
 
 #main{
   position: relative;
-  width: 500px;
+  width: 350px;
   height: 350px;
   padding-top: 10px;
   box-shadow: 1px 1px 5px #202020;
@@ -41,18 +41,18 @@ body{
 #main #fullName{
   margin: 10px 0;
   width: 100%;
-  font-size: 3em;
+  font-size: 2em;
   line-height: 30px;
   text-transform: capitalize; /* Capitalize first letter in name */
 }
 
 #main #username{
   text-transform: lowercase;
-  font-size: 2em;
+  font-size: 1.2em;
 }
 
 #main #email{
-  font-size: 1.5em;
+  font-size: 1.1em;
 }
 
 #main #city{
@@ -64,7 +64,7 @@ body{
   bottom: 0;
   width: 100%;
   height: 35px;
-  font-size: 1.15em;
+  font-size: 1em;
   background-color: #e07307;
   border: none;
   color: #e6e6e6;
@@ -86,4 +86,10 @@ body{
 #source-code{
   width: 100%;
   background-color: #fff;
+}
+
+@media (min-width: 500px){
+  #main{
+    width: 500px;
+  }
 }
